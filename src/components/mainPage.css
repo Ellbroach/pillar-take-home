@@ -1,0 +1,59 @@
+
+.main-data-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    align-content: space-between;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin: 3% auto 0px;
+    font-family: 'Palatino Header';
+}
+
+.data-record {
+    width: 30vw;
+    height: 30vh;
+    box-shadow: 0 0 3pt 4pt darkgoldenrod;
+    margin: 30px;
+    padding: 20px;
+    background: antiquewhite;
+}
+
+.data-record h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.data-record h2 {
+    font-size: 32px;
+}
+
+input{
+    width: 25vw;
+    line-height: 60px;
+    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search {
+    margin-top: 4vh;
+}
+
+button {
+    width: 200px;
+    position: relative;
+    bottom: 4px;
+    height: 65px;
+    background-color: #F4A460;
+    box-shadow: 0 6px #999;
+    border-radius: 12px;
+    margin-left: 1vw;
+    font-size: 20px;
+}
+
+button:active {
+    background-color: #F4A460;
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
+  }
